@@ -1,4 +1,7 @@
-let currentTheme = getTheme();
+console.log("Theme loaded successfully!");
+
+  // Get the current theme from local storage or default to light
+  let currentTheme = getTheme();
 
   // Set the current theme on page load
   document.addEventListener("DOMContentLoaded", () => {
